@@ -62,15 +62,14 @@ The LuCI API
 
 While much can be done simply using the CBI interface and properly implementing UCI into your OpenWRT programs, more complex functionality, or non-UCI compliant programs, will require that you write your own Lua scripts. LuCI has a robust set of Lua functions for interacting with OpenWRT routers.
 
-API Documentation- https://openwrt.github.io/luci/api/ 
-http://luci.subsignal.org/api/luci/ (oboslete)
+API Documentation - https://openwrt.github.io/luci/api/ 
+API Documentation - http://luci.subsignal.org/api/luci/ (oboslete)
 
 Nixio
 -----
 Nixio is the "Networking and I/O library for Lua." Nixio is the low level Lua code that powers the LuCI API. If you are looking for Lua hooks for specific networking and I/O tasks that too far abstracted by the LuCI libraries, here is where you need to look.
 
 API Documentation - https://openwrt.github.io/luci/api/modules/nixio.html
-http://luci.subsignal.org/api/nixio/ (oboslete)
 Source - http://luci.subsignal.org/trac/browser/luci/trunk/libs/nixio (oboslete)
 
 
@@ -81,7 +80,7 @@ To use the LuCI development environment you can simply run `make luci` from the 
 
 If you are missing dependencies you can go to the online guide to get requirements:
 
->    http://luci.subsignal.org/trac/wiki/Documentation/DevelopmentEnvironmentHowTo
+>    https://github.com/openwrt/luci/wiki/DevelopmentEnvironmentHowTo
 
 
 Executing a LuCI command from the Linux shell
